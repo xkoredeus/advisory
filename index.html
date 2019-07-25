@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="theme-color" content="#6232ad">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Advisory application</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<main class="adv">
+		<div class="container">
+			<div class="adv__in d-flex flex-column justify-content-center">
+				<div class="d-flex justify-content-center align-items-end mb-5">
+					<div class="adv__ttl mr-3">Прогноз погоды</div>
+					<div class="adv__subttl">Самара, 2 июня, понедельник</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-1">
+						<button type="button" class="adv__arr adv__arr_prev"><img src="img/arrow_prev.png" alt="img/arrow_prev.png"></button>
+					</div>
+					<div class="col-10">
+						<div class="row mt-3">
+							<div class="col-xl-3 adv__item-wrp">
+								<div class="d-flex adv__item flex-column align-items-center shd">
+									<div class="adv__item-day mb-3">Сегодня</div>
+									<div class="adv__item-date mb-3">1 июня</div>
+									<div class="adv__item-icon mb-3"><img src="img/icon__sun.svg" alt="icon__sun.svg"></div>
+									<div class="adv__item-time adv__item-time_day">днем - 26°</div>
+									<div class="adv__item-time adv__item-time_night mb-4">ночью - 16°</div>
+									<div class="adv__item-descr">без осадков</div>
+								</div>
+							</div>
+							<div class="col-xl-3 adv__item-wrp">
+								<div class="d-flex adv__item flex-column align-items-center shd">
+									<div class="adv__item-day mb-3">Сегодня</div>
+									<div class="adv__item-date mb-3">2 июня</div>
+									<div class="adv__item-icon mb-3"><img src="img/icon__cloud.svg" alt="icon__cloud.svg"></div>
+									<div class="adv__item-time adv__item-time_day">днем - 26°</div>
+									<div class="adv__item-time adv__item-time_night mb-4">ночью - 16°</div>
+									<div class="adv__item-descr">без осадков</div>
+								</div>
+							</div>
+							<div class="col-xl-3 adv__item-wrp">
+								<div class="d-flex adv__item flex-column align-items-center shd">
+									<div class="adv__item-day mb-3">Сегодня</div>
+									<div class="adv__item-date mb-3">3 июня</div>
+									<div class="adv__item-icon mb-3"><img src="img/icon__rain.svg" alt="icon__rain.svg"></div>
+									<div class="adv__item-time adv__item-time_day">днем - 26°</div>
+									<div class="adv__item-time adv__item-time_night mb-4">ночью - 16°</div>
+									<div class="adv__item-descr">без осадков</div>
+								</div>
+							</div>
+							<div class="col-xl-3 adv__item-wrp">
+								<div class="d-flex adv__item flex-column align-items-center shd">
+									<div class="adv__item-day mb-3">Сегодня</div>
+									<div class="adv__item-date mb-3">5 июня</div>
+									<div class="adv__item-icon mb-3"><img src="img/icon__snow.svg" alt="icon__snow.svg"></div>
+									<div class="adv__item-time adv__item-time_day">днем - 26°</div>
+									<div class="adv__item-time adv__item-time_night mb-4">ночью - 16°</div>
+									<div class="adv__item-descr">без осадков</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-1">
+						<button type="button" class="adv__arr adv__arr_next"><img src="img/arrow_next.png" alt="img/arrow_next.png"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
